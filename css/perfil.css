@@ -1,0 +1,134 @@
+* body  {
+  font-family:'Bellefair', serif;
+}
+
+.navbar {
+  background-color:white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.nav {
+  margin-top: 30px;
+}
+
+.logo {
+  width: 15%;
+  height: 15%;
+  margin: 15px;
+  display: inline-block;
+}
+
+.slider {
+  width: 70%;
+  height: 300px;
+}
+
+.item {
+  height: 300px;
+}
+
+.item h1 {
+    background-color: rgb(12, 131, 67);
+}
+
+.list-group-item {
+
+  background-color: rgb(12, 131, 67);
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#box-image {
+  margin: 25px;
+}
+
+#myForm {
+  margin-bottom: 15px;
+}
+
+#text{
+  outline-color: rgb(12, 131, 67);
+  margin-left: 15px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#button {
+  background-color: rgb(12, 131, 67);
+  color: white;
+  margin-left:15px;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: rgb(12, 131, 67);
+  color: white;
+  margin-left:15px;
+  margin-top: 15px;
+}
+
+.foto1 {
+  border: 1px solid rgb(12, 131, 67);
+
+  height: 167px;
+  margin-left: 15px;
+  background-image: url("../assets/images/carrusel-1.jpg");
+}
+
+.foto2 {
+  border: 1px solid rgb(12, 131, 67);
+  border-radius: 50%;
+  height: 167px;
+  margin-left: 15px;
+  background-image: url("../assets/images/carrusel-3.jpg");
+}
+
+.datos {
+  height: 167px;
+  margin-left: 15px;
+}
+
+.img-perfil {
+  width: 10%;
+  height: 10%;
+}
+
+.rest {
+  margin: 25px;
+}
+
+.message {
+  border: 1px solid rgb(12, 131, 67);
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  text-align: right;
+}
+
+.comu {
+  border: 1px solid rgb(12, 131, 67);
+  border-radius: 5px;
+  width: 42%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#files {
+  width: 140px;
+}
+
+.subir-fotos {
+  border: 1px solid rgb(12, 131, 67);
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  left: 40%;
+  }
+
+.carta {
+  display: inline-block!important;
+  margin: 10px;
+}

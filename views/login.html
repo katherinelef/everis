@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Everis</title>
+    <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">    
+    <link href="../css/login.css" rel="stylesheet">  
+  </head>
+  <body>
+      <nav class = "view-mobile view-desktop">
+          <img class="logo" src="../assets/images/logo.png" alt="logo">
+          <span class=" title"><h1 class="text-center">Everis</h1></span> 
+      </nav>
+      <div class="row view-mobile view-desktop">
+        <div class="col-xs-4 col-sm-1 col-sm-offset-4" >
+          <a href="../views/inicio.html" type="button" class="btn">
+            <span class="glyphicon glyphicon-menu-left" aria-hid den="true"></span>
+          </a>
+        </div>
+          <div class="col-xs-6 col-sm-1 col-sm-offset-1" >
+            <h3 class="sign">Login</h3>
+          </div>
+        </div>
+        <div class="container view-mobile view-desktop">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+              <button id="submit" type="submit" class="btn btn-default">Iniciar sesión</button>
+            </div>
+          </div>
+        </div>
+  <!-- jQuery library -->
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>  
+  <script src="../js/login.js"></script>
+  </body>
+</html>
